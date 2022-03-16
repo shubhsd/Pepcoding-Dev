@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant</title>
+    <style>
+        div p span {
+            color: red;
+        }
+
+        /* Children selector */
+        div>span>p>span {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Descendant Selector</h1>
+
+    <div>
+        <p>
+            <span>I am Child</span>
+        </p>
+    </div>
+
+    <div>
+        <span>
+            <p>
+                <span>I am Descendant</span>
+            </p>
+        </span>
+    </div>
+</body>
+
+</html>
