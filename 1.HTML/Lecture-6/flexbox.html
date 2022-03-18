@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        .main>div {
+            width: 200px;
+            background-color: yellowgreen;
+            margin: 20px;
+            padding: 10px;
+        }
+
+        .main {
+            display: flex;
+            /* flex-direction: row; */
+            /* flex-direction: column-reverse; */
+            flex-wrap: wrap; 
+            /* flex wrap se origin width kam nhi hoti as per div grow  */
+            justify-content: center;
+        }
+    </style>
+</head> 
+<body>
+    <h1>CSS flex box</h1>
+    <div class="main">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+
+        <div>Four</div>
+        <div>Five</div>
+        <div>Six</div>
+
+        <div>Seven</div>
+        <div>Eight</div>
+        <div>Nine</div>
+
+        <div>Ten</div>
+        <div>Eleven</div>
+        <div>Twelve</div>
+    </div>
+</body>
+</html>
