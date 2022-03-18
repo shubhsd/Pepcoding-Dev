@@ -1,0 +1,35 @@
+.navbar>nav {
+    display: flex;
+    justify-content: space-between;
+}
+/* or */
+
+/* nav {
+    display: flex;
+} */
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+/* .welcomeImage>img {
+    height: 600px;
+    width: 800px;
+} */
+
+.skills {
+    display: flex;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    height: 80px;
+}  
+.footer>p {
+    font-size: 20px;
+}
